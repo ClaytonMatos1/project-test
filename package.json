@@ -1,0 +1,38 @@
+{
+  "name": "test-vuejs",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Clayton Matos",
+  "license": "ISC",
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ],
+  "dependencies": {
+    "vue": "^2.5.15"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-runtime": "^6.26.0",
+    "babelify": "^8.0.0",
+    "browser-sync": "^2.23.6",
+    "browserify": "^16.1.1",
+    "gulp": "^3.9.1",
+    "gulp-browserify": "^0.5.1",
+    "gulp-clean": "^0.4.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-shell": "^0.6.5",
+    "gulp-sourcemaps": "^2.4.1",
+    "gulp-uglify": "^3.0.0",
+    "gulp-vueify": "0.0.3",
+    "vueify": "^9.4.1",
+    "vueify-insert-css": "^1.0.0"
+  }
+}
