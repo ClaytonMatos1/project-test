@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "prestart": "npm install",
+    "start": "gulp",
+    "dev": "gulp server"
   },
   "author": "Clayton Matos",
   "license": "ISC",
@@ -20,19 +22,16 @@
     "babel-core": "^6.26.0",
     "babel-plugin-transform-runtime": "^6.23.0",
     "babel-preset-es2015": "^6.24.1",
+    "babel-register": "^6.26.0",
     "babel-runtime": "^6.26.0",
     "babelify": "^8.0.0",
     "browser-sync": "^2.23.6",
     "browserify": "^16.1.1",
     "gulp": "^3.9.1",
-    "gulp-browserify": "^0.5.1",
     "gulp-clean": "^0.4.0",
-    "gulp-concat": "^2.6.1",
     "gulp-shell": "^0.6.5",
-    "gulp-sourcemaps": "^2.4.1",
+    "gulp-sourcemaps": "2.4.1",
     "gulp-uglify": "^3.0.0",
-    "gulp-vueify": "0.0.3",
-    "vueify": "^9.4.1",
-    "vueify-insert-css": "^1.0.0"
+    "vueify": "^9.4.1"
   }
 }
