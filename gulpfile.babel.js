@@ -52,7 +52,7 @@ gulp.task('server', ['map'], () => {
         server : {
             baseDir : './'
         },
-        reloadDelay: 500,
+        reloadDelay: 1000,
     });
     gulp.watch('src/**/*', ['refresh']).on('change', browserSync.reload);
 });
